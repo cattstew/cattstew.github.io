@@ -1,0 +1,83 @@
+body {
+  font-size: 16px;
+  font-family: 'Neucha', cursive;
+  margin: 75px;
+}
+h2 {
+  color:rgb(255, 202, 138);
+  margin-top: 25px;
+  margin-left:25px;
+  font-size: 35px;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+h4 {
+  margin-left: 25px;
+}
+h3 {
+  margin-left: 25px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navchicken{
+  display: flex;
+  flex-direction: row;
+  margin-left: 45px;
+  margin-right: 15px;
+  float: none;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navoptions{
+  list-style-type: none;
+  width: 500px;
+  text-align: center;
+}
+.navlist {
+  text-decoration: none;
+  color: black;
+  display: block;
+  background-color: rgb(255, 202, 138);
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  width: 150px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: rgb(217, 217, 217);
+}
+input[type="email"] {
+  width: 150px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: rgb(217, 217, 217);
+}
+input[type="tel"] {
+  width: 150px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: rgb(217, 217, 217);
+}
+
+.info {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.role {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+}

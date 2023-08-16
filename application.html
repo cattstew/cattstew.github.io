@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="application.css">
+  <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+  <title> Job Application </title>
+</head>
+
+<body>
+  <h1 class="name"> Katrina's Chicken Factory </h1>
+  <!-- Navigation bar is below -->
+  <div class="navchicken">
+    <img src=" https://static01.nyt.com/images/2011/09/28/dining/28CHICKSKIN_SPAN/28CHICKSKIN-articleLarge.jpg?quality=75&auto=webp&disable=upscale" height="43" width="75" alt="urmom" />
+    <img src=" https://static01.nyt.com/images/2011/09/28/dining/28CHICKSKIN_SPAN/28CHICKSKIN-articleLarge.jpg?quality=75&auto=webp&disable=upscale" height="43" width="75" alt="urmom" />
+    <img src=" https://static01.nyt.com/images/2011/09/28/dining/28CHICKSKIN_SPAN/28CHICKSKIN-articleLarge.jpg?quality=75&auto=webp&disable=upscale" height="43" width="75" alt="urmom" />
+  </div>
+  <div class="navigationbaroption">
+    <ul class="navbar">
+      <li class="navoptions"><a class="navlist" href="worker.html">Staffs</a></li>
+      <li class="navoptions"><a class="navlist" href="menu.html"> Menu </a></li>
+      <li class="navoptions"><a class="navlist" href="application.html"> Application </a></li>
+    </ul>
+  </div>
+  <!-- Navigation bar is above -->
+
+  <h2> Job Application</h2>
+
+  <div class="role">
+    <form action="action_page.php" method="get">
+      <fieldset>
+        <!-- Seperate -->
+        <legend> Choose your Job </legend>
+        <!-- First option -->
+        <p>
+          <input type="radio" name="roles" id="chicks" value="chicks" />
+          <label> Chickens </label>
+          <select id="chickens">
+            <option> Hen </option>
+            <option> Rooster </option>
+            <option> Egg </option>
+          </select>
+        </p>
+        <!-- Second option -->
+        <p>
+          <input type="radio" name="roles" id="cleans" value="cleans" />
+          <label> Cleaners </label>
+          <select id="cleaners">
+            <option> Bathroom </option>
+            <option> Dorms </option>
+            <option> Office </option>
+          </select>
+        </p>
+        <!-- Third option -->
+        <p>
+          <input type="radio" name="roles" id="works" value="works" />
+          <label> Workers </label>
+          <select id="workers">
+            <option> Workshop </option>
+            <option> Hatcher</option>
+            <option> Spa Room </option>
+          </select>
+        </p>
+        <!-- Seperate -->
+      </fieldset>
+    </form>
+  </div>
+  <!-- End of first form -->
+
+  <div class="info">
+    <form action "">
+      <fieldset>
+        <!-- Seperate -->
+        <legend> Basic Information </legend>
+        <!-- Enter name -->
+        <p>
+          <label> Name </label>
+          <input type="text" />
+        </p>
+        <!-- Enter Email Address -->
+        <p>
+          <label> Email Address </label>
+          <input type="email" id="textEmail" />
+        </p>
+        <!-- Enter age -->
+        <p>
+          <label> Age </label>
+          <input type="text" />
+        </p>
+        <!-- Enter phone number -->
+        <p>
+          <label> Phone Number </label>
+          <input type="tel" id="tel" />
+          <!-- First question -->
+        <p>Please enter below why you want to join our company.</p>
+        <p>
+          <textarea id="whyjoin" rows="10" cols="40">
+    </textarea>
+        </p>
+        <!-- Second question -->
+        <p>What do you have to offer to the company?</p>
+        <p>
+          <textarea id="whatoffer" rows="10" cols="40">
+    </textarea>
+        </p>
+        <!-- Buttons -->
+        <input type="submit" />
+        <input type="reset" />
+        <!-- Seperate -->
+      </fieldset>
+    </form>
+  </div>
+  <!-- End of second form -->
+</body>
+
+</html>
